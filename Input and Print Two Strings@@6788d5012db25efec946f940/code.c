@@ -4,6 +4,6 @@ int main(){
     char uu[];
     scanf("%s",&na);
     scanf("%s",&uu);
-    print("You entered: %s and %s",na,uu)
+    printf("You entered: %s and %s",na,uu);
     return 0;
 }
