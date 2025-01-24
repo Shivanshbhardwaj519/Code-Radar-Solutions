@@ -1,9 +1,8 @@
-#include<stdio.h>
-int main(){
-    float num1, num2;
-    scanf("%f",&num1);
-    scanf("%f",&num2)
-    float total = (num1*num2);
-    prinf("Product: %.2f",tot);
+#include <stdio.h>
+int main() {
+   float num1, num2;
+   scanf("%f%f",&num1, &num2);
+   float product = num1*num2;
+   printf("Product: ",product);
     return 0;
 }
