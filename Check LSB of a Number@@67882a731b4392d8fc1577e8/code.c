@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int a;
@@ -8,7 +8,7 @@ int main()
         printf("Set\n");
     }
     else{
-        printf("Not Set\n")
+        printf("Not Set\n");
     }
     return 0;
 }
