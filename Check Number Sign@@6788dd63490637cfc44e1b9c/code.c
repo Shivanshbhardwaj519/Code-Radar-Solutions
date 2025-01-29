@@ -8,8 +8,6 @@ int main() {
     else if(a<0){
         printf("Negative\n");
     }
-    else{
-        printf("enter a valid no.\n");
-    }
+    
     return 0;
 }
