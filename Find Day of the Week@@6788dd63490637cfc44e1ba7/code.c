@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    switch(a<=7 && a>=1){
+    switch(a>=1 && a<=7){
         case 1:
         printf("Monday");
         break;
