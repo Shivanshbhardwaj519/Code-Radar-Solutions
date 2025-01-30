@@ -4,19 +4,25 @@ int main() {
     char c;
     scanf("%d %d",&a,&b);
     scanf("%c",&c);
-    if(c=='+'){
-        printf("%d",a+b);
-    }
-    else if(c=='-'){
-        printf("%d",a-b);
-    }
-    else if(c=='*'){
-        printf("%d",a*b);
-    }
-    else if(c== '/'){
-        printf("%d",a/b);
-    }
-    else{
+    int result;
+    switch(c){
+        case '+':
+        result = a+b;
+        printf("%d",result);
+        break;
+        case '-':
+        result = a-b;
+        printf("%d",result);
+        break;
+        case '*':
+        result = a*b;
+        printf("%d",result);
+        break;
+        case '/':
+        result = a/b;
+        printf("%d",result);
+        break;
+        default:
         printf("Error");
     }
 
