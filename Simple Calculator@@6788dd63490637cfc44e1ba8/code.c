@@ -3,7 +3,7 @@ int main() {
     double a,b;
     char opm;
     scanf("%ld %ld",&a,&b);
-    scanf(" %c",&opm);
+    scanf("%c", opm);
     int result;c
     switch(opm){
         case '+':
