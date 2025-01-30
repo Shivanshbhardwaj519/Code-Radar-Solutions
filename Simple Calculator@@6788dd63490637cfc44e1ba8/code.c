@@ -6,11 +6,11 @@ int main() {
     scanf("%c",&opm);
     int result;
     switch(opm){
-        case '+':
+        case +:
         result = a + b;
         printf("%d",result);
         break;
-        case '-':
+        case -:
         result = a - b;
         printf("%d",result);
         break;
