@@ -3,8 +3,8 @@ int main() {
     double a,b;
     char opm;
     scanf("%ld %ld",&a,&b);
-    scanf("%c",&opm);
-    int result;
+    scanf(" %c",&opm);
+    int result;c
     switch(opm){
         case '+':
         result = a + b;
