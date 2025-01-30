@@ -1,36 +1,26 @@
-#include <stdio.h>
-int main() {
-    int a,b;
-    char opm;
-    scanf("%d%d",&a, &b);
-    scanf("%c",&opm);
-    int result;
-    switch(opm){
-        case '+':
-        result = a + b;
-        printf("%d",result);
-        break;
-        case '-':
-        result = a - b;
-        printf("%d",result);
-        break;
-        case '*':
-        result = a * b;
-        printf("%d",result);
-        break;
-        case '/':
-            if(b!=0){
-                result = a/b;
-                printf("%d",result);
-            
-            }
-            else{
-                printf("error");
-            }
-            break;
-        default:
-        printf("Error");
+#include<stdio.h>
+int main(){
+    int a, b;
+    char c;
+    scanf("%d %d"" %c",&a,&b,&c);
+    if(c =='+'){
+        printf("%d",a+b);
     }
-
-    return 0;
+    else if(c == '-'){
+        printf("%d",a-b);
+    }
+    else if(c == '*'){
+        printf("%d",a*b);
+    }
+    else if(c == '/'){
+        if(b == 0){
+            printf("error");
+        }
+        else{
+            printf("%d",a/b);
+        }
+    }
+    else{
+        printf("error");
+    }
 }
