@@ -2,7 +2,7 @@
 int main() {
     int a,b;
     char c;
-    scanf("%d %d",&a,&b);
+    scanf("%ld %ld",&a,&b);
     scanf("%c",c);
     int result;
     switch(c){
