@@ -1,4 +1,4 @@
-#include <stdio.h>1
+#include <stdio.h>
 int main() {
     double a,b;
     char c;
