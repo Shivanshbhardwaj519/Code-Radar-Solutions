@@ -2,7 +2,7 @@
 int main() {
     int a,b;
     char opm;
-    scanf("%d%d",&a,&b);
+    scanf("%d%d",&a, &b);
     scanf("%c",&opm);
     int result;
     switch(opm){
