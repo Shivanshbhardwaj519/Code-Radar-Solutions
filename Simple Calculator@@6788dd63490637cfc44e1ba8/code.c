@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    double a,b;
     char opm;
     scanf("%ld %ld",&a,&b);
     scanf("%c",opm);
