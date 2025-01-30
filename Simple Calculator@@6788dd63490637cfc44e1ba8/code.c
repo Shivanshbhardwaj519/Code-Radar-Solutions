@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
     int a,b;
-    char c;
+    char opm;
     scanf("%ld %ld",&a,&b);
     scanf("%c",c);
     int result;
-    switch(c){
+    switch(opm){
         case '+':
         result = a + b;
         printf("%d",result);
