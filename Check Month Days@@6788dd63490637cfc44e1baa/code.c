@@ -24,7 +24,7 @@ int main() {
         printf("31");
     }
     else if(a==8){
-        printf(31);
+        printf("31");
     }
     else if(a==9){
         printf("30");
