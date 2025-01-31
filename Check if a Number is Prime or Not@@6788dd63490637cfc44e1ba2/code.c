@@ -1,17 +1,18 @@
 #include <stdio.h>
 int main() {
-    int a;
+    int a,i;
     scanf("%d",&a);
-    if (a>0){
-        if(a>1 && a/1 || a/a){
-            printf("Prime\n");
-        }
-        else{
-            printf("Not Prime\n");
-        }
+    if (a<=1){
+        printf("Not Prime\n");
     }
     else{
-        printf("Not Prime\n");
+        for(i=2; i<num; i++);{
+            if(num%i==0){
+                printf("Not Prime");
+                treturn 0;
+            }
+        }
+        printf("Prime");
     }
     return 0;
 }
