@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a;
+    int a,i;
     scanf("%d",&a);
-    while(a>=0 && a==a){
+    while(a>=0 && a==i){
         printf("%d ",a);
-        a++;
+        i++;
     }
     return 0;
 }
