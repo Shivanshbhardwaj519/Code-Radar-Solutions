@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    int bt = (a << b) | 1;
-    printf("%d\n",bt);
+    a = a & ~(1 << b);
+    printf("%d\n",a);
     return 0;
 }
